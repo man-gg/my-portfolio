@@ -1,3 +1,5 @@
+const baseUrl = import.meta.env.BASE_URL
+
 export const portfolioData = {
   profile: {
     name: 'Emman',
@@ -12,7 +14,7 @@ export const portfolioData = {
     location: 'Cuenca, Batangas',
     email: 'emmanuelmendoza589@gmail.com',
     phone: '+63 9672965584',
-    photo: '/profile.jpg',
+    photo: `${baseUrl}profile.jpg`,
   },
   about: {
     degree:
@@ -160,6 +162,6 @@ export const portfolioData = {
     email: 'emmanuelmendoza589@gmail.com',
     linkedin: 'https://www.linkedin.com/in/jose-emmanuel-mendoza-521b1634a/',
     github: 'https://github.com/man-gg',
-    resumeUrl: '/RESUME_MENDOZA.pdf',
+    resumeUrl: `${baseUrl}RESUME_MENDOZA.pdf`,
   },
 }
