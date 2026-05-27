@@ -354,7 +354,7 @@ function App() {
   }
 
   function openResume() {
-    window.open(`${import.meta.env.BASE_URL}resume.html`, 'Resume_Mendoza', 'noopener,noreferrer')
+    window.open(`${import.meta.env.BASE_URL}resume.html`, '_blank', 'noopener,noreferrer')
   }
 
   const navItems = [
